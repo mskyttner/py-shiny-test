@@ -27,7 +27,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Make shinylive deployment in docs/
-        run: shinylive export app docs
+        run: shinylive export app-wasm docs
 
       # =====================================================
       # Commit to gh-pages branch
