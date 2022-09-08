@@ -23,8 +23,8 @@ jobs:
       - name: Upgrade pip
         run: python -m pip install --upgrade pip
 
-      - name: Install shiny
-        run: pip install shiny
+      - name: Install requirement.txt
+        run: pip install -r requirements.txt
 
       - name: Make shinylive deployment in docs/
         run: shiny static app docs
