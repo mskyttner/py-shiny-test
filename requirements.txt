@@ -1,0 +1,9 @@
+pydantic
+uvicorn
+requests
+shiny
+htmltools
+matplotlib
+numpy
+shinylive
+git+https://github.com/kth-library/bibliutils@fastapi-example
